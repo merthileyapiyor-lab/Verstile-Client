@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.verstile.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "VelocityLivingEntityMixin",
+    "VelocityMinecraftMixin",
+    "VelocityEntityRendererMixin"
+    ,"VelocityConnectionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

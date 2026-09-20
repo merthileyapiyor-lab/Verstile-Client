@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "autopvp",
+  "version": "${version}",
+  "name": "Verstile",
+  "description": "Verstile modular client for Minecraft 1.21.11.",
+  "authors": ["mertk2134", "avcibora"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "preLaunch": [
+      "com.verstile.bootstrap.DesktopBootstrap"
+    ],
+    "main": [
+      "com.example.autopvp.AutoPvpMod"
+    ],
+    "client": [
+      "com.verstile.client.VerstileClient"
+    ]
+  },
+  "mixins": [
+    "verstileclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

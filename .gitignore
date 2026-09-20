@@ -1,0 +1,12 @@
+.gradle/
+build/
+run/
+out/
+.idea/
+*.iml
+*.log
+hs_err_pid*
+.env
+*.key
+*.pem
+
