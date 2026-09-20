@@ -1,3 +1,4 @@
 Expanded the Client GUI from 530x340 up to 700x400.
 Widened the module column and settings inspector for clearer names and descriptions.
 Kept responsive sizing for smaller Minecraft window and GUI-scale combinations.
+HitFlick behavior remains unchanged from version 1.0.30.
